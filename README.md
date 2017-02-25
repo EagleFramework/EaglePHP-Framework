@@ -7,12 +7,12 @@ EaglePHP is lightweight HMVC PHP Framework.
 * PSR-4 Autoload
 * Fast routring engine with Request and Response chain
 * Doesn’t require defining constants to bootstrap and helper functions
-* Detailed explanations by phpDocumentor 2 standarts
+* Detailed explanations by phpDocumentor 2
 * Common functions in Object-Oriented Form
 	* Cookie
 	* Error Handler, Exception Handler, Shutdown Handler by ErrorHandler
 	* File
-	* GD and Imagick by ImageAdapter Models
+	* GD and Imagick by ImageAdapter
 	* Json
 	* Session
 
@@ -21,16 +21,15 @@ EaglePHP is lightweight HMVC PHP Framework.
 
 ## Settings
 
-### Config/config.php
+### Namespace/Config/config.php
 
 ```PHP
 return array(
 
-
 );
 ```
 
-### Config/routes.php
+### Namespace/Config/routes.php
 
 ```PHP
 return array(
