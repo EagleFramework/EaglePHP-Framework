@@ -36,9 +36,9 @@ return array(
 return array(
 	"path" => array( // Path of router can include regex and filters
 			"target"		=> array("Controller", "Method"),	// Method of Controller
-			"name"			=> "Name",							// Name of router (optional)
+			"name"			=> "Name",							// Name for route (optional)
 			"filters"		=> array("filter" => "regex"),		// User defined filters (optional)
-			"default"   => array("param" => value)				// User defined default parameters (optional)
+			"default"		=> array("param" => value)			// User defined default parameters (optional)
 	)
 );
 ```
@@ -47,9 +47,9 @@ return array(
 ## Requirements
 
 * Minimum last two build versions of PHP 5.6
-* GD or Imagick extension for ImageAdapter Models
-* Gettext extension for I18n Class
-* Mbstring extension for UTF8 Class
+* **GD** or **Imagick** extension for ImageAdapter Models
+* **Gettext** extension for I18n Class
+* **Mbstring** extension for UTF8 Class
 * Partially Requirements
 	* PHP 7.0.0 for Session::start()'s parameter $options
 	* PHP 7.1.0 for Session::create_id() and gc()
@@ -71,14 +71,7 @@ return array(
 | session_start() param @options | Session      | 7.0.0    | 7.0.0       | X           | X           |
 | session_create_id()            | Session      | 7.1.0    | 7.1.0       | 7.1.0       | X           |
 | session_gc()                   | Session      | 7.1.0    | 7.1.0       | 7.1.0       | X           |
-|                                |              |          |             |             |             |
-| **Extension**                  | **Used by**  | **Req.** | **PHP 5.6** | **PHP 7.0** | **PHP 7.1** |
-| Fileinfo (Default on 5.3.0)    | File         | 5.3.0    | X           | X           | X           |
-| Filter (Default on 5.2.0)      | Valid        | 5.2.0    | X           | X           | X           |
-| Json (Default on 5.2.0)        | Json         | 5.2.0    | X           | X           | X           |
-| GD                             | Image        | gd       |             |             |             |
-| Gettext                        | I18n         | gettext  |             |             |             |
-| Imagick                        | Image        | imagick  |             |             |             |
-| Mbstring                       | UTF8         | mbstring |             |             |             |
 
 *Decreased
+
+*Note: As PHP 5.2.0, Filter and Json extension; as PHP 5.3.0, Fileinfo extension is bundled and compiled into PHP by default.
