@@ -65,13 +65,13 @@ return array(
 | Constant scalar expression     | EaglePHP     | 5.6.0    | X           | X           | X           |
 |                                |              |          |             |             |             |
 | **Function**                   | **Used by**  | **Req.** | **PHP 5.6** | **PHP 7.0** | **PHP 7.1** |
-| error_clear_last()             | ErrorHandler | 7.0.0    | 5.4.0 *     | X           | X           |
+| error_clear_last()             | ErrorHandler | 7.0.0    | 5.4.0*[1]*  | X           | X           |
 | session_abort()                | Session      | 5.6.0    | X           | X           | X           |
 | session_reset()                | Session      | 5.6.0    | X           | X           | X           |
 | session_start() param @options | Session      | 7.0.0    | 7.0.0       | X           | X           |
 | session_create_id()            | Session      | 7.1.0    | 7.1.0       | 7.1.0       | X           |
 | session_gc()                   | Session      | 7.1.0    | 7.1.0       | 7.1.0       | X           |
 
-*Decreased
+*__[1].__ Decreased*
 
-*Note: As PHP 5.2.0, Filter and Json extension; as PHP 5.3.0, Fileinfo extension is bundled and compiled into PHP by default.
+*__Note:__ As PHP 5.2.0, Filter and Json extension; as PHP 5.3.0, Fileinfo extension is bundled and compiled into PHP by default.*
