@@ -34,9 +34,6 @@ EaglePHP is lightweight HMVC PHP Framework.
 | **Property**                   | **Used by**  | **Req.** | **PHP 5.6** | **PHP 7.0** | **PHP 7.1** |
 |--------------------------------|--------------|----------|-------------|-------------|-------------|
 | Interfaces                     | -            | 5.0.0    | X           | X           | X           |
-| Namespace                      | EaglePHP     | 5.3.0    | X           | X           | X           |
-| Autoload (Namespace)           | EaglePHP     | 5.3.0    | X           | X           | X           |
-| Last Static Bindings           | EaglePHP     | 5.3.0    | X           | X           | X           |
 | Traits                         | -            | 5.4.0    | X           | X           | X           |
 | finally keyword                | -            | 5.5.0    | X           | X           | X           |
 | yield keyword                  | -            | 5.5.0    | X           | X           | X           |
