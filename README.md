@@ -5,7 +5,7 @@ EaglePHP is lightweight HMVC PHP Framework.
 * \Eagle is common system namespace for applications. Doesn’t call anyting from \Application
 * \Application is as a module in vendor folder. \Application is totally override classes in \Eagle
 * PSR-4 Autoload
-* Fast routring engine with Request and Response chain
+* Fast routing engine with Request and Response chain
 * Doesn’t require defining constants to bootstrap and helper functions
 * Detailed explanations by phpDocumentor 2
 * Common functions in Object-Oriented Form
