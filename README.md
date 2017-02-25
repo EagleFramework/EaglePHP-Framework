@@ -12,7 +12,7 @@ EaglePHP is lightweight HMVC PHP Framework.
    * Cookie
    * Error Handler, Exception Handler, Shutdown Handler by ErrorHandler
    * File
-   * GD, Imagick by ImageAdapter Models
+   * GD and Imagick by ImageAdapter Models
    * Json
    * Session
 
