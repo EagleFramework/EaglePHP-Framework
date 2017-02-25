@@ -41,12 +41,6 @@ EaglePHP is lightweight HMVC PHP Framework.
 |                                |              |          |             |             |             |
 | **Function**                   | **Used by**  | **Req.** | **PHP 5.6** | **PHP 7.0** | **PHP 7.1** |
 | error_clear_last()             | ErrorHandler | 7.0.0    | 5.4.0 *     | X           | X           |
-| json_last_error()              | Json         | 5.3.0    | X           | X           | X           |
-| json_decode() param $options   | Json         | 5.4.0    | X           | X           | X           |
-| json_last_error_msg()          | Json         | 5.5.0    | X           | X           | X           |
-| json_encode() param $depth     | Json         | 5.5.0    | X           | X           | X           |
-| session_register_shutdown()    | Session      | 5.4.0    | X           | X           | X           |
-| session_status()               | Session      | 5.4.0    | X           | X           | X           |
 | session_abort()                | Session      | 5.6.0    | X           | X           | X           |
 | session_reset()                | Session      | 5.6.0    | X           | X           | X           |
 | session_start() param @options | Session      | 7.0.0    | 7.0.0       | X           | X           |
