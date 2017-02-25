@@ -62,6 +62,7 @@ EaglePHP is lightweight HMVC PHP Framework.
 | Json (Default on 5.2.0)        | class Json         | 5.2.0        | X              | X              | X              |
 | GD                             | class Image        | gd           |                |                |                |
 | Gettext                        | class I18n         | gettext      |                |                |                |
+| Imagick                        | class Image        | imagick      |                |                |                |
 | Mbstring                       | class UTF8         | mbstring     |                |                |                |
 
 *Decreased
