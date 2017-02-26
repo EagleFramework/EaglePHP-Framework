@@ -11,7 +11,7 @@ EaglePHP is lightweight HMVC PHP Framework.
 * Common functions in Object-Oriented Form
 	* **Cookie:** Cookie functions by static methods
 	* **ErrorHandler:** Error, Exception and Shutdown Handler 
-	* **File:** File handling with instance of class. ``` new File("filepath.ext");```
+	* **File:** File handling with instance of class. ``` new File("filepath");```
 	* **GD/Imagick:** Image editor by Adapter Pattern
 	* **Json:** Json functions by static methods
 	* **Session:** Session function by static methods
