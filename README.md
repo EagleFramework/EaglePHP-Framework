@@ -32,10 +32,10 @@ return array(
 ```PHP
 return array(
 	"path" => array( // Path of router can include regex and filters
-			"target"		=> array("Controller", "Method"),	// Method of Controller
-			"name"			=> "Name",							// Name for route (optional)
-			"filters"		=> array("filter" => "regex"),		// User defined filters (optional)
-			"default"		=> array("param" => value)			// User defined default parameters (optional)
+			"target"	=> array("Controller", "Method"),	// Method of Controller
+			"name"		=> "Name",							// Name for route (optional)
+			"filters"	=> array("filter" => "regex"),		// User defined filters (optional)
+			"default"	=> array("param" => value)			// User defined default parameters (optional)
 	)
 );
 ```
