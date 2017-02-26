@@ -42,6 +42,24 @@ return array(
 );
 ```
 
+## Directories
+
+Paths which changeable created dynamically to static by Constant scalar expression.
+```
+public/
+└── ...
+vendor/	(Not static location)
+├── Application/
+│   ├── Config/		(Changeable path by Config class)
+│   ├── Controller/
+│   ├── Locale/		(Changeable path by Controller class)
+│   ├── Model/
+│   ├── Module/		(Changeable path by Module class)
+│   └── View/		(Changeable path by Controller class)
+│
+└── Eagle/
+    └── ... (same as \Application)
+```
 
 ## Requirements
 
