@@ -70,13 +70,15 @@ vendor/	(Not static location)
 
 ## Requirements
 
-* Minimum last two build versions of PHP 5.6
+* PHP 5.6.x *[1]* / 7.0.x / 7.1.x
 * **GD** or **Imagick** extension for ImageAdapter
 * **Gettext** extension for I18n Class
 * **Mbstring** extension for UTF8 Class
 * Partially Requirements
 	* PHP 7.0.0 for Session::start()'s parameter $options
 	* PHP 7.1.0 for Session::create_id() and gc()
+
+*__[1].__ Minimum last two build versions of PHP 5.6*
 
 ### Requirements Table
 
