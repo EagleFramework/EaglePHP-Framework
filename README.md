@@ -81,11 +81,8 @@ vendor/	(Not static location)
 
 | **Property**                   | **Used by**  | **Req.** | **PHP 5.6** | **PHP 7.0** | **PHP 7.1** |
 |--------------------------------|--------------|----------|-------------|-------------|-------------|
-| Interfaces                     | -            | 5.0.0    | X           | X           | X           |
-| Traits                         | -            | 5.4.0    | X           | X           | X           |
-| finally keyword                | -            | 5.5.0    | X           | X           | X           |
-| yield keyword                  | -            | 5.5.0    | X           | X           | X           |
 | Constant scalar expression     | EaglePHP     | 5.6.0    | X           | X           | X           |
+|                                |              |          |             |             |             |
 |                                |              |          |             |             |             |
 | **Function**                   | **Used by**  | **Req.** | **PHP 5.6** | **PHP 7.0** | **PHP 7.1** |
 | error_clear_last()             | ErrorHandler | 7.0.0    | X *[1]*     | X           | X           |
