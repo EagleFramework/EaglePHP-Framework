@@ -14,9 +14,7 @@ EaglePHP is lightweight HMVC PHP Framework.
 	* **GD/Imagick:** Image editor with Adapter Pattern
 	* **Json:** Json functions by static methods
 	* **Session:** Session function by static methods
-
- *Note: Only \Application files avaible to reach in GitHub*
-
+	
 
 ## Settings
 
