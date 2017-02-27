@@ -79,17 +79,12 @@ vendor/	(Not static location)
 
 ### Requirements Table
 
-| **Property**                   | **Used by**  | **Req.** | **PHP 5.6** | **PHP 7.0** | **PHP 7.1** |
-|--------------------------------|--------------|----------|-------------|-------------|-------------|
-| Constant scalar expression     | EaglePHP     | 5.6.0    | X           | X           | X           |
-|                                |              |          |             |             |             |
-| **Function**                   | **Used by**  | **Req.** | **PHP 5.6** | **PHP 7.0** | **PHP 7.1** |
-| error_clear_last()             | ErrorHandler | 7.0.0    | X *[1]*     | X           | X           |
-| session_abort()                | Session      | 5.6.0    | X           | X           | X           |
-| session_reset()                | Session      | 5.6.0    | X           | X           | X           |
-| session_start() param $options | Session      | 7.0.0    |             | X           | X           |
-| session_create_id()            | Session      | 7.1.0    |             |             | X           |
-| session_gc()                   | Session      | 7.1.0    |             |             | X           |
+| Functions / Properties         | Used by      | Req.  | PHP 5.6 | PHP 7.0 | PHP 7.1 |
+|--------------------------------|--------------|-------|---------|---------|---------|
+| error_clear_last()             | ErrorHandler | 7.0.0 | X *[1]* | X       | X       |
+| session_start() param $options | Session      | 7.0.0 |         | X       | X       |
+| session_create_id()            | Session      | 7.1.0 |         |         | X       |
+| session_gc()                   | Session      | 7.1.0 |         |         | X       |
 
 *__[1].__ Decreased to PHP 5.4.0*
 
