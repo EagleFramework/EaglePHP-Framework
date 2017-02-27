@@ -83,7 +83,6 @@ vendor/	(Not static location)
 |--------------------------------|--------------|----------|-------------|-------------|-------------|
 | Constant scalar expression     | EaglePHP     | 5.6.0    | X           | X           | X           |
 |                                |              |          |             |             |             |
-|                                |              |          |             |             |             |
 | **Function**                   | **Used by**  | **Req.** | **PHP 5.6** | **PHP 7.0** | **PHP 7.1** |
 | error_clear_last()             | ErrorHandler | 7.0.0    | X *[1]*     | X           | X           |
 | session_abort()                | Session      | 5.6.0    | X           | X           | X           |
