@@ -9,12 +9,12 @@ EaglePHP is lightweight HMVC PHP Framework.
 * PSR-4 Autoload
 * Common functions in Object-Oriented
 	* **Cookie:** Cookie functions by static methods
-	* **ErrorHandler:** Error, Exception and Shutdown Handler 
+	* **ErrorHandler:** Error, Exception and Shutdown Handler
 	* **File:** File handling with instance of class. ``` new File("filepath");```
 	* **GD/Imagick:** Image editor with Adapter Pattern
 	* **Json:** Json functions by static methods
 	* **Session:** Session functions by static methods
-	
+
 
 ## Settings
 
