@@ -68,14 +68,17 @@ vendor/	(Not static location)
 ## Requirements
 
 * PHP 5.6.x *[1]* / 7.0.x / 7.1.x
-* **GD** or **Imagick** extension for ImageAdapter
-* **Gettext** extension for I18n Class
-* **Mbstring** extension for UTF8 Class
+* Optional Requirements
+	* **GD** or **Imagick** extension for ImageAdapter
+	* **Gettext** extension for I18n Class
+	* **Mbstring** extension for UTF8 Class
 * Partially Requirements
-	* PHP 7.0.0 for Session::start()'s parameter $options
-	* PHP 7.1.0 for Session::create_id() and gc()
+	* **PHP 7.0.0** for Session::start()'s parameter $options
+	* **PHP 7.1.0** for Session::create_id() and gc()
 
 *__[1].__ Minimum last two build versions of PHP 5.6*
+
+*__Note:__ As PHP 5.2.0, Filter and Json extension; as PHP 5.3.0, Fileinfo extension is bundled and compiled into PHP by default.*
 
 ### Requirements Table
 
@@ -87,5 +90,3 @@ vendor/	(Not static location)
 | session_gc()                   | Session      | 7.1.0 |         |         | X       |
 
 *__[1].__ Decreased to PHP 5.4.0*
-
-*__Note:__ As PHP 5.2.0, Filter and Json extension; as PHP 5.3.0, Fileinfo extension is bundled and compiled into PHP by default.*
