@@ -78,7 +78,7 @@ vendor/	(Not static location)
 
 *__[1].__ Minimum last two build versions of PHP 5.6*
 
-*__Note:__ As PHP 5.2.0, Filter and Json extension; as PHP 5.3.0, Fileinfo extension is bundled and compiled into PHP by default.*
+*__Note:__ Be sure about default extensions; Fileinfo, Filter and Json need to be enabled.*
 
 ### Requirements Table
 
