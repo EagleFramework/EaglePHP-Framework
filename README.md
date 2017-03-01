@@ -76,7 +76,7 @@ vendor/	(Not static location)
 	* **PHP 7.0.0** for Session::start()'s parameter $options
 	* **PHP 7.1.0** for Session::create_id() and gc()
 
-*__[1].__ Minimum last two build versions of PHP 5.6*
+*__[1].__ Lastest build version of PHP 5.6*
 
 *__Note:__ Be sure about default extensions; Fileinfo, Filter and Json need to be enabled.*
 
