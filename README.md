@@ -13,7 +13,7 @@ EaglePHP is lightweight HMVC PHP Framework.
 	* **File:** File handling with instance of class. ``` new File("filepath");```
 	* **GD/Imagick:** Image editor with Adapter Pattern
 	* **Json:** Json functions by static methods
-	* **Session:** Session functions by static methods
+	* **Session:** Session handler with instance of class and get/set by static methods
 
 
 ## Settings
@@ -67,7 +67,7 @@ vendor/	(Not static location)
 
 ## Requirements
 
-* PHP 5.6.(lastest build) / 7.0.x / 7.1.x
+* PHP 5.6.*(lastest build)* / 7.0.x / 7.1.x
 * Optional Requirements
 	* **GD** or **Imagick** extension for ImageAdapter
 	* **Gettext** extension for I18n Class
