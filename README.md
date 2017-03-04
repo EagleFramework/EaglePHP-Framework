@@ -67,26 +67,10 @@ vendor/	(Not static location)
 
 ## Requirements
 
-* PHP 5.6.x *[1]* / 7.0.x / 7.1.x
+* PHP 5.6.(lastest build) / 7.0.x / 7.1.x
 * Optional Requirements
 	* **GD** or **Imagick** extension for ImageAdapter
 	* **Gettext** extension for I18n Class
 	* **Mbstring** extension for UTF8 Class
-* Partially Requirements
-	* **PHP 7.0.0** for Session::start()'s parameter $options
-	* **PHP 7.1.0** for Session::create_id() and gc()
-
-*__[1].__ Lastest build version of PHP 5.6*
 
 *__Note:__ Be sure about default extensions; Fileinfo, Filter and Json need to be enabled.*
-
-### Requirements Table
-
-| Functions / Properties         | Used by      | Req.  | PHP 5.6 | PHP 7.0 | PHP 7.1 |
-|--------------------------------|--------------|-------|---------|---------|---------|
-| error_clear_last()             | ErrorHandler | 7.0.0 | X *[1]* | X       | X       |
-| session_start() param $options | Session      | 7.0.0 |         | X       | X       |
-| session_create_id()            | Session      | 7.1.0 |         |         | X       |
-| session_gc()                   | Session      | 7.1.0 |         |         | X       |
-
-*__[1].__ Decreased to PHP 5.4.0*
