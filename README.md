@@ -41,7 +41,6 @@ return array(
 
 ### Directories
 
-Paths which changeable created dynamically to static by Constant scalar expression.
 ```
 public/
 └── ...
