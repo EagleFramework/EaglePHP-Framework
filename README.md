@@ -24,11 +24,11 @@ EaglePHP is lightweight HMVC PHP Framework.
 ```PHP
 return array(
 	/** General Settings (Optional) */
-	"base_url"		=> "http://example.com/", // If null or not defined then auto detect
+	"base_url"			=> "http://example.com/", // If null or not defined then auto detect
 	"display_errors"	=> true,
 	"error_repoting"	=> E_ALL, // Production: E_ALL & ~E_DEPRECATED & ~E_STRICT
-	"locale"		=> "en-US",
-	"timezone"		=> "UTC",
+	"locale"			=> "en-US",
+	"timezone"			=> "UTC",
 
 	/** Database (Required) */
 	"Database"	=> array(
@@ -45,9 +45,9 @@ return array(
 return array(
 	"path" => array( // Path of router can include regex and filters
 		"target"	=> array("Controller", "Method"),	// Method of Controller
-		"name"		=> "Name",				// Name for route (optional)
+		"name"		=> "Name",							// Name for route (optional)
 		"filters"	=> array("filter" => "regex"),		// User defined filters (optional)
-		"default"	=> array("param" => value)		// User defined default parameters (optional)
+		"default"	=> array("param" => value)			// User defined default parameters (optional)
 	)
 );
 ```
