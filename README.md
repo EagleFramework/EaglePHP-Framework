@@ -72,6 +72,7 @@ vendor/	(Not static location)
 
 
 ## Run
+Setting for Public folder
 
 ```PHP
 /** Set namespace to work */
