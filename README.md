@@ -74,7 +74,19 @@ vendor/	(Not static location)
 ## Run
 
 ```PHP
+/** Set namespace to work */
+namespace Application;
 
+/** Initialize Eagle */
+require __DIR__."/../vendor/Eagle/Eagle.php";
+\Eagle\Eagle::init();
+
+/** Load Module and Initialize */
+\Eagle\Module::load("Application", __DIR__."/../vendor/ApplicationDefault", true);
+Application::init();
+
+/** Force Request */
+(coming soon)
 ```
 
 
