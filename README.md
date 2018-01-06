@@ -84,7 +84,7 @@ require __DIR__."/../vendor/Eagle/Eagle.php";
 \Eagle\Eagle::init();
 
 /** Load Module and Initialize */
-\Eagle\Module::load("Application", __DIR__."/../vendor/ApplicationDefault", true);
+\Eagle\Module::load("Application", __DIR__."/../vendor/Application", true);
 Application::init();
 
 /** Force Request */
