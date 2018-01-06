@@ -31,10 +31,10 @@ return array(
 ```PHP
 return array(
 	"path" => array( // Path of router can include regex and filters
-			"target"	=> array("Controller", "Method"),	// Method of Controller
-			"name"		=> "Name",							// Name for route (optional)
-			"filters"	=> array("filter" => "regex"),		// User defined filters (optional)
-			"default"	=> array("param" => value)			// User defined default parameters (optional)
+		"target"	=> array("Controller", "Method"),	// Method of Controller
+		"name"		=> "Name",				// Name for route (optional)
+		"filters"	=> array("filter" => "regex"),		// User defined filters (optional)
+		"default"	=> array("param" => value)		// User defined default parameters (optional)
 	)
 );
 ```
@@ -67,7 +67,7 @@ vendor/	(Not static location)
 
 ## Requirements
 
-* PHP 5.6.*(lastest build)* / 7.0.x / 7.1.x
+* PHP 5.6.*(lastest build)* / PHP 7.x.x
 * Optional Requirements
 	* **GD** or **Imagick** extension for ImageAdapter
 	* **Gettext** extension for I18n Class
