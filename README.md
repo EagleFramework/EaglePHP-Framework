@@ -67,7 +67,7 @@ vendor/	(Not static location)
 
 ## Requirements
 
-* PHP 5.6.*(lastest build)* / PHP 7.x.x
+* PHP 5.6.x *(lastest build)* / 7.0.x / 7.1.x / 7.2.x
 * Optional Requirements
 	* **GD** or **Imagick** extension for ImageAdapter
 	* **Gettext** extension for I18n Class
