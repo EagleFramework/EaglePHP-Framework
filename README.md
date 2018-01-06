@@ -19,7 +19,7 @@ EaglePHP is lightweight HMVC PHP Framework.
 
 ## Settings
 
-### Namespace/Config/config.php
+#### Namespace/Config/config.php
 
 ```PHP
 return array(
@@ -39,7 +39,7 @@ return array(
 	)
 );
 ```
-### Namespace/Config/routes.php
+#### Namespace/Config/routes.php
 
 ```PHP
 return array(
@@ -52,7 +52,7 @@ return array(
 );
 ```
 
-### Directories
+#### Directories
 
 ```
 public/
@@ -72,7 +72,8 @@ vendor/	(Not static location)
 
 
 ## Run
-Setting for Public folder
+
+#### For index.php file in public folder
 
 ```PHP
 /** Set namespace to work */
