@@ -1,10 +1,10 @@
 <?php
-namespace Application\Model\ImageAdapter;
+namespace Application\Model\ImageEditor;
 
 /**
  * Imagick
  *
- * @package    Application\Model\ImageAdapter
+ * @package    Application\Model\ImageEditor
  */
-class Imagick extends \Eagle\Model\ImageAdapter\Imagick {}
+class Imagick extends \Eagle\Model\ImageEditor\Imagick {}
 ?>

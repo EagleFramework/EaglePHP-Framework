@@ -1,10 +1,10 @@
 <?php
-namespace Application\Model\ImageAdapter;
+namespace Application\Model\ImageEditor;
 
 /**
  * GD
  *
- * @package    Application\Model\ImageAdapter
+ * @package    Application\Model\ImageEditor
  */
-class GD extends \Eagle\Model\ImageAdapter\GD {}
+class GD extends \Eagle\Model\ImageEditor\GD {}
 ?>
