@@ -24,7 +24,7 @@ EaglePHP is lightweight modular PHP Framework.
 return array(
     /** General Settings (Optional) */
     "base_url"       => "http://example.com/", // If null or not defined then auto detect
-    "display_errors" => true,
+    "display_errors" => true, // Production: false
     "error_repoting" => E_ALL, // Production: E_ALL & ~E_DEPRECATED & ~E_STRICT
     "locale"         => "en-US",
     "timezone"       => "UTC",
@@ -95,7 +95,7 @@ Application::init();
 
 * PHP 5.6.x *(lastest build)* / 7.0.x / 7.1.x / 7.2.x
 * Optional Requirements
-    * **GD** or **Imagick** extension for ImageAdapter
+    * **GD** or **Imagick** extension for image editing (GD/Imagick Class)
     * **Gettext** extension for I18n Class
     * **Mbstring** extension for UTF8 Class
 
