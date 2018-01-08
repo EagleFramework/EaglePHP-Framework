@@ -1,6 +1,6 @@
 # EaglePHP Framework
 
-EaglePHP is lightweight HMVC PHP Framework.
+EaglePHP is lightweight modular PHP Framework.
 
 * \Eagle doesn’t require \Application, defining constants to bootstrap and any helper functions
 * Fast routing engine with Request and Response chain
