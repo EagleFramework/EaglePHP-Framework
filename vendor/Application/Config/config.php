@@ -3,7 +3,7 @@
 return array(
 	/** General Settings (Optional) */
 	"base_url"			=> null, // If null or not defined then auto detect
-	"display_errors"	=> true,
+	"display_errors"	=> true, // Production: false
 	"error_repoting"	=> E_ALL, // Production: E_ALL & ~E_DEPRECATED & ~E_STRICT
 	"locale"			=> "en-US",
 	"timezone"			=> "UTC",
