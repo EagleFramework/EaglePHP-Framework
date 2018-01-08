@@ -6,9 +6,9 @@ namespace Application;
  *
  * @package    Application
  * @author     Cem Demirkartal
- * @version    1.0.170228
+ * @version    1.0.180901
  */
-class Application extends \Eagle\Module {
+class Application {
 	/**
 	 * @var    string[] Config files to load
 	 */
