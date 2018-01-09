@@ -5,7 +5,7 @@
  * @author     Cem Demirkartal
  * @copyright  (c) 2016-2018 Cem Demirkartal
  * @license    The MIT License
- * @version    1.0.180104
+ * @version    1.0.180109
  */
 /** Set namespace to work */
 namespace Application;
@@ -18,6 +18,6 @@ require __DIR__."/../vendor/Eagle/Eagle.php";
 \Eagle\Module::load("Application", __DIR__."/../vendor/ApplicationDefault", true);
 Application::init();
 
-/** Force Request */
-
+/** Force Request and Print */
+Request::forge()->execute()->send(true);
 ?>
