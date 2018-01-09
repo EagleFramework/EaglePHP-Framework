@@ -86,8 +86,8 @@ require __DIR__."/../vendor/Eagle/Eagle.php";
 \Eagle\Module::load("Application", __DIR__."/../vendor/Application", true);
 Application::init();
 
-/** Force Request */
-(coming soon)
+/** Force Request and Print */
+Request::forge()->execute()->send(true);
 ```
 
 
