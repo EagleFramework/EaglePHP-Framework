@@ -2,18 +2,18 @@
 
 EaglePHP is lightweight modular PHP Framework.
 
-* \Eagle doesn’t require \Application, defining constants to bootstrap and any helper functions
-* Fast routing engine with Request and Response chain
-* Detailed explanations with phpDocumentor 2 standards
-* PSR-4 Autoload
-* Common functions in Object-Oriented
-    * **Cookie:** Cookie functions by static methods
-    * **ErrorHandler:** Error, Exception and Shutdown Handler
+* \Eagle doesn’t require \Application, defining constants to bootstrap and any helper functions.
+* Fast routing engine with Request and Response chain.
+* Detailed explanations with phpDocumentor 2 standards.
+* PSR-4 Autoload.
+* Common functions in Object-Oriented;
+    * **Cookie:** Cookie functions by static methods.
+    * **ErrorHandler:** Error, Exception and Shutdown Handler.
     * **File:** File handling with instance of class. ``` new File("filepath");```
-    * **GD/Imagick:** Image editor with Adapter Pattern
-    * **Json:** Json functions by static methods
-    * **Session:** Session functions by static methods
-    * **SessionHandler:** Session handling with instance of class
+    * **GD/Imagick:** Image editor with Adapter Pattern.
+    * **Json:** Json functions by static methods.
+    * **Session:** Session functions by static methods.
+    * **SessionHandler:** Session handling with instance of class.
 
 
 ## Settings
@@ -52,18 +52,18 @@ return array(
 ```
 
 #### Directories
-
+All paths can easily be changed by the user.
 ```
 public/
 └── ...
 vendor/	(Not static location)
 ├── Application/
-│   ├── Config/      (Changeable path by Config class)
+│   ├── Config/      (Path by Config class)
 │   ├── Controller/
-│   ├── Locale/      (Changeable path by Controller class)
+│   ├── Locale/      (Path by any Controller class)
 │   ├── Model/
-│   ├── Module/      (Changeable path by Module class)
-│   └── View/        (Changeable path by Controller class)
+│   ├── Module/      (Path by Module class)
+│   └── View/        (Path by any Controller class)
 │
 └── Eagle/
     └── ... (same as \Application)
@@ -86,17 +86,17 @@ require __DIR__."/../vendor/Eagle/Eagle.php";
 \Eagle\Module::load("Application", __DIR__."/../vendor/Application", true);
 Application::init();
 
-/** Force Request */
-(coming soon)
+/** Force Request and Print */
+Request::forge()->execute()->send(true);
 ```
 
 
 ## Requirements
 
 * PHP 5.6.x *(lastest build)* / 7.0.x / 7.1.x / 7.2.x
-* Optional Requirements
-    * **GD** or **Imagick** extension for image editing (GD/Imagick Class)
-    * **Gettext** extension for I18n Class
-    * **Mbstring** extension for UTF8 Class
+* Optional Requirements;
+    * **GD** or **Imagick** extension for image editing (GD/Imagick Class).
+    * **Gettext** extension for I18n Class.
+    * **Mbstring** extension for UTF8 Class.
 
 *__Note:__ Be sure about default extensions; Fileinfo, Filter and Json need to be enabled.*
