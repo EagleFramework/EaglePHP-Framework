@@ -10,7 +10,6 @@ EaglePHP is lightweight modular PHP Framework.
     * **Cookie:** Cookie functions by static methods.
     * **ErrorHandler:** Error, Exception and Shutdown Handler.
     * **File:** File handling with instance of class. ``` new File("filepath");```
-    * **GD/Imagick:** Image editor with Adapter Pattern.
     * **Json:** Json functions by static methods.
     * **Session:** Session functions by static methods.
     * **SessionHandler:** Session handling with instance of class.
@@ -95,7 +94,6 @@ Request::forge()->execute()->send(true);
 
 * PHP 5.6.x *(lastest build)* / 7.0.x / 7.1.x / 7.2.x
 * Optional Requirements;
-    * **GD** or **Imagick** extension for image editing (GD/Imagick Class).
     * **Gettext** extension for I18n Class.
     * **Mbstring** extension for UTF8 Class.
 
