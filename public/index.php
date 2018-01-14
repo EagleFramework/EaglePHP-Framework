@@ -20,4 +20,3 @@ Application::init();
 
 /** Force Request and Print */
 Request::forge()->execute()->send(true);
-?>
