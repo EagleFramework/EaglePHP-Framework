@@ -12,4 +12,3 @@ class Config extends \Eagle\Config {
 	 */
     protected static $configPath = __DIR__."/Config/";
 }
-?>

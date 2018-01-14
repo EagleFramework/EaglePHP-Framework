@@ -7,4 +7,3 @@ namespace Application;
  * @package    Application
  */
 class Json extends \Eagle\Json {}
-?>

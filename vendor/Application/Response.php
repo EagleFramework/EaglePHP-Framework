@@ -7,4 +7,3 @@ namespace Application;
  * @package    Application
  */
 class Response extends \Eagle\Response {}
-?>

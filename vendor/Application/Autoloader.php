@@ -12,4 +12,3 @@ class Autoloader extends \Eagle\Autoloader {
 	 */
 	protected static $loader = "Application\Autoloader::loadClass";
 }
-?>

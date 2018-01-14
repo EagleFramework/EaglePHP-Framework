@@ -7,4 +7,3 @@ namespace Application;
  * @package    Application
  */
 class Timezone extends \Eagle\Timezone {}
-?>

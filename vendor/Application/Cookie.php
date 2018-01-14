@@ -7,4 +7,3 @@ namespace Application;
  * @package    Application
  */
 class Cookie extends \Eagle\Cookie {}
-?>

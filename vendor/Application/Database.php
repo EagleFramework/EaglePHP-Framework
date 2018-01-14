@@ -12,4 +12,3 @@ class Database extends \Eagle\Database {
 	 */
 	protected static $configClass = "Application\Config";
 }
-?>

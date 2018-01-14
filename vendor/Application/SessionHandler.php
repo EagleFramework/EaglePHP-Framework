@@ -7,4 +7,3 @@ namespace Application;
  * @package    Application
  */
 class SessionHandler extends \Eagle\SessionHandler {}
-?>

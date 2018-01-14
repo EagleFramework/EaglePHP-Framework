@@ -56,4 +56,3 @@ class Application {
 		return false;
 	}
 }
-?>

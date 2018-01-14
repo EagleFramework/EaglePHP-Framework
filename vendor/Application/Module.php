@@ -17,4 +17,3 @@ class Module extends \Eagle\Module {
 	 */
 	protected static $modulePath = __DIR__."/Module/";
 }
-?>

@@ -7,4 +7,3 @@ namespace Application;
  * @package    Application
  */
 class I18n extends \Eagle\I18n {}
-?>

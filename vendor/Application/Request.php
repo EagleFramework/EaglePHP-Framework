@@ -7,4 +7,3 @@ namespace Application;
  * @package    Application
  */
 class Request extends \Eagle\Request {}
-?>

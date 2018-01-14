@@ -7,4 +7,3 @@ namespace Application;
  * @package    Application
  */
 class UTF8 extends \Eagle\UTF8 {}
-?>

@@ -7,4 +7,3 @@ namespace Application;
  * @package    Application
  */
 class Session extends \Eagle\Session {}
-?>

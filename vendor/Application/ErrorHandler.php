@@ -16,4 +16,3 @@ class ErrorHandler extends \Eagle\ErrorHandler {
 		"shutdown"	=> "Application\ErrorHandler::ShutdownHandler"
 	);
 }
-?>

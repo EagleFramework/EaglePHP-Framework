@@ -27,4 +27,3 @@ class Controller extends \Eagle\Controller {
 	 */
 	protected $viewPath = __DIR__."/View/";
 }
-?>
