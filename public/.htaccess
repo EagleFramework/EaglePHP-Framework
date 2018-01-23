@@ -1,7 +1,7 @@
 # EaglePHP Framework htaccess file
 #
-# @version    1.0.170901
-# @source     HTML5 Boilerplate v6.0.1
+# @version    1.0.180119
+# @source     Apache Server Configs v2.15.0
 
 # # CROSS-ORIGIN
 # ######################################################################
@@ -30,7 +30,11 @@
 
 # | Custom error messages/pages
 # -----------------------------------
-ErrorDocument 404 /error.404.php
+ErrorDocument 400 /error
+ErrorDocument 401 /error
+ErrorDocument 403 /error
+ErrorDocument 404 /error
+ErrorDocument 500 /error
 
 # | Error prevention
 # -----------------------------------
@@ -81,7 +85,6 @@ Options -MultiViews
 # | Character encodings
 # -----------------------------------
 AddDefaultCharset utf-8
-
 <IfModule mod_mime.c>
     AddCharset utf-8 .atom \
                      .bbaw \
@@ -136,8 +139,9 @@ AddDefaultCharset utf-8
 # -----------------------------------
 <IfModule mod_rewrite.c>
 	RewriteEngine on
-	RewriteCond %{REQUEST_FILENAME} !-d
 	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteCond %{REQUEST_FILENAME} !-l
 	<IfModule mod_fcgid.c>
 		RewriteRule ^(.*)$ index.php?/$1 [QSA,L]
 	</IfModule>
@@ -146,7 +150,12 @@ AddDefaultCharset utf-8
 			RewriteRule ^(.*)$ index.php/$1 [L]
 		</IfModule>
 		<IfModule !mod_php5.c>
-			RewriteRule ^(.*)$ index.php?/$1 [QSA,L]
+			<IfModule mod_php7.c>
+				RewriteRule ^(.*)$ index.php/$1 [L]
+			</IfModule>
+			<IfModule !mod_php7.c>
+				RewriteRule ^(.*)$ index.php?/$1 [QSA,L]
+			</IfModule>
 		</IfModule>
 	</IfModule>
 </IfModule>
@@ -219,7 +228,6 @@ AddDefaultCharset utf-8
 # | Server software information
 # -----------------------------------
 ServerSignature Off
-
 
 # # WEB PERFORMANCE
 # ######################################################################

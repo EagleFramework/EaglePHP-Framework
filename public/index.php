@@ -5,7 +5,7 @@
  * @author     Cem Demirkartal
  * @copyright  (c) 2016-2018 Cem Demirkartal
  * @license    The MIT License
- * @version    1.0.180109
+ * @version    1.0.180123
  */
 /** Set namespace to work */
 namespace Application;
@@ -19,4 +19,7 @@ require __DIR__."/../vendor/Eagle/Eagle.php";
 Application::init();
 
 /** Force Request and Print */
-Request::forge()->execute()->send(true);
+$request = Request::forge();
+if($response = $request->execute()){ // Execute "Requested URI"
+	$response->send(true);
+}
