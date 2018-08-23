@@ -92,7 +92,7 @@ Request::forge()->execute()->send(true);
 
 ## Requirements
 
-* PHP 7.1 or higher
+* PHP 7.1.3 or higher
 * Optional Requirements;
     * **Gettext** extension for I18n Class.
     * **Mbstring** extension for UTF8 Class.
